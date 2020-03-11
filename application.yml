@@ -1,6 +1,3 @@
 spring:
-  cloud:
-    config:
-      uri: https://github.com/wagdynavas/wn-cloud-config-server.git
-server:
-  port: 8888
+  application:
+    name: server-config
