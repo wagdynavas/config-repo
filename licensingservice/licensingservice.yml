@@ -1,0 +1,7 @@
+spring.jpa.database: "MYSQL"
+spring.datasource.platform:  "mysql"
+spring.jpa.show-sql: "false"
+spring.database.driverClassName: "com.mysql.cj.jdbc.Driver"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQLDialect"
