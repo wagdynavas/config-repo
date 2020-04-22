@@ -1,15 +1,15 @@
 server:
-  port: 8082
+  port: 8083
 spring:
   application:
-    name: licensing-service
+    name: organization-service
 spring.jpa.database: "MYSQL"
 spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "false"
 spring.database.driverClassName: "com.mysql.cj.jdbc.Driver"
 spring.datasource.username: root
 spring.datasource.password: root 
-spring.datasource.url: "jdbc:mysql://localhost:3306/licensing_service"
+spring.datasource.url: "jdbc:mysql://localhost:3306/organization_service"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQLDialect"
